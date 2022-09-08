@@ -1,0 +1,48 @@
+@charset "UFT-8";
+
+.header-bg {
+  background-color: black;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+}
+
+.header nav {
+  display: flex;
+  gap: 60px;
+  flex-wrap: wrap;
+}
+
+.header nav a {
+  padding: 16px 0px;
+  position: relative;
+}
+
+.header nav a::after {
+  content: " ";
+  display: block;
+  width: 0px;
+  height: 1.5px;
+  background-color: white;
+  margin-top: 4px;
+  position: absolute;
+  transition: 0.3s;
+}
+
+.header nav a:hover::after {
+  width: 100%;
+}
+
+@media (max-width: 600px) {
+  .header {
+    flex-direction: column;
+  }
+
+  .header nav {
+    gap: 12px;
+  }
+}

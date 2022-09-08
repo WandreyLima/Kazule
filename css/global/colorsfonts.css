@@ -1,0 +1,45 @@
+@charset "UFT-8";
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,600;1,300;1,700&family=Oswald&family=Poppins:wght@400;600&display=swap");
+
+:root {
+}
+
+.font-1-12 {
+  font: 400 1.2rem/1.35 "Oswald", sans-serif;
+  letter-spacing: 2px;
+}
+
+.font-2-14,
+.font-2-14-i {
+  font: 300 1.4rem "Montserrat", sans-serif;
+}
+
+.font-2-14-i {
+  font-style: italic;
+}
+
+.font-2-16,
+.font-2-16-b {
+  font: 400 1.6rem/1.5 "Montserrat", sans-serif;
+}
+
+.font-2-16-b {
+  font-weight: 600;
+}
+
+.font-2-32 {
+  font: italic 300 3.2rem/1.25 "Montserrat", sans-serif;
+}
+
+.font-2-40 {
+  font: italic 700 4rem "Montserrat", sans-serif;
+}
+
+.font-3-24 {
+  font: 400 2.4rem/1.5 "Poppins", sans-serif;
+}
+
+.font-3-36 {
+  font: 600 3.6rem/1.25 "Poppins", sans-serif;
+}

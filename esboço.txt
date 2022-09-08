@@ -1,0 +1,20 @@
+Projeto Kazule
+Objetivos: 1 - Apresentação da empresa, 2 - serviços prestados, 3 - exibição de potfólio de projetos, 4 - contato com a empresa.
+
+
+- Header fixo com (Quem somos, projetos, serviços, contato)
+- 1 container = Kazule + Frase
+- 2 Container = Foto + Sobre
+- 3 Container = Cards Serviços
+
+fontes 
+- montserrat 14 Light 300
+- montserrat 16 Regular 400
+- montserrat 16 SemiBold 600
+- montserrat 32 Light 300 Italic
+- montserra 40 Bold 700 Italic
+
+
+- poppins 36 SemiBold 600
+- poppins 24 Regular 400
+
