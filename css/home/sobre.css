@@ -1,0 +1,35 @@
+@charset "UFT-8";
+
+.sobre {
+    margin-top: 5rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+}
+
+.sobre-texto {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.sobre-texto h2 {
+    text-align: center;
+}
+
+.sobre-texto p {
+    text-align: justify;
+    line-height: 2;
+    padding: 0rem 1rem 0rem 1rem;
+}
+
+.botao {
+    display: inline-block;
+    margin: auto;
+    border: none;
+    background-color: black;
+    color: white;
+    border-radius: 4px;
+    width: 150px;
+    height: 40px;
+}
