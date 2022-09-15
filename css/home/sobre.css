@@ -23,13 +23,12 @@
     padding: 0rem 1rem 0rem 1rem;
 }
 
-.botao {
-    display: inline-block;
-    margin: auto;
-    border: none;
-    background-color: black;
-    color: white;
-    border-radius: 4px;
-    width: 150px;
-    height: 40px;
+.whatsapp {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.whatsapp img {
+    order: -1;
 }
