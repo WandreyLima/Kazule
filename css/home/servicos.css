@@ -1,42 +1,42 @@
 @charset "UFT-8";
 
 #servicos {
-    background-color: #e9e9e9
+  background-color: #e9e9e9;
 }
 
 .servicos {
-    margin-top: 5rem;
-    padding-bottom: 5rem;
+  margin-top: 5rem;
+  padding-bottom: 5rem;
 }
 
 .servicos h2 {
-    padding: 3rem 0;
-    text-align: center;
-    
+  padding: 3rem 0;
+  text-align: center;
 }
 
 .servicos-cards {
-    display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(365px, 1fr));
-    gap: 2rem;
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  overflow: auto;
 }
 
 .card-servicos {
-    display: flex;
-    flex-direction: column;
-    max-width: 365px;
-    gap: 1rem;
-    align-items: center;
-    background-color: white;
-    border-radius: 6px;
-    padding-bottom: 2rem;
+  display: flex;
+  flex-direction: column;
+  min-width: 365px;
+  gap: 1rem;
+  align-items: center;
+  background-color: white;
+  border-radius: 6px;
+  padding-bottom: 2rem;
 }
 
 .card-servicos p {
-    line-height: 1.5;
-    padding: 0rem 1.5rem;
+  line-height: 1.5;
+  padding: 0rem 1.5rem;
 }
 
 .card-servicos img {
-    border-radius: 6px 6px 0px 0px;
+  border-radius: 6px 6px 0px 0px;
 }

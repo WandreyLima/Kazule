@@ -1,34 +1,47 @@
 @charset "UFT-8";
 
 .sobre {
-    margin-top: 5rem;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 4rem;
+  margin-top: 5rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
 }
 
 .sobre-texto {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
 }
 
 .sobre-texto h2 {
-    text-align: center;
+  text-align: center;
 }
 
 .sobre-texto p {
-    text-align: justify;
-    line-height: 2;
-    padding: 0rem 1rem 0rem 1rem;
+  text-align: justify;
+  line-height: 2;
+  padding: 0rem 1rem 0rem 1rem;
+}
+
+.sobre-img img {
+  object-fit: cover;
+  height: 100%;
+  margin: auto;
 }
 
 .whatsapp {
-    display: flex;
-    align-items: center;
-    gap: 5px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
 }
 
 .whatsapp img {
-    order: -1;
+  order: -1;
+}
+
+@media (max-width: 800px) {
+  .sobre {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
 }
