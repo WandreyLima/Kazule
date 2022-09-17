@@ -19,6 +19,7 @@
   flex-direction: row;
   gap: 2rem;
   overflow: auto;
+  
 }
 
 .card-servicos {
@@ -30,6 +31,7 @@
   background-color: white;
   border-radius: 6px;
   padding-bottom: 2rem;
+  margin: 3rem 0px;
 }
 
 .card-servicos p {

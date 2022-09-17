@@ -8,7 +8,7 @@
 .parallax-img {
     height: 90vh;
     width: 100%;
-    opacity: 0.7;
+    opacity: 0.8;
     background: black url(../../media/fotos/imagem-parallax-1.jpg) no-repeat fixed center bottom;
     background-size: cover;
     
