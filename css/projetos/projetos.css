@@ -1,0 +1,17 @@
+@charset "UFT-8";
+
+main > h1 {
+    text-align: center;
+    padding: 4rem 0rem 4rem 0rem;
+}
+
+.projeto {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.projeto-imagens {
+    display: flex;
+    gap: 2rem;
+}
