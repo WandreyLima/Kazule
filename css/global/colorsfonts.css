@@ -31,8 +31,16 @@
   font: italic 300 3.2rem/1.25 "Montserrat", sans-serif;
 }
 
+.font-2-32-n {
+  font: normal 400 3.2rem/1.25 "Montserrat", sans-serif;
+}
+
 .font-2-40 {
   font: italic 700 4rem "Montserrat", sans-serif;
+}
+
+.font-2-40-n {
+  font: normal 700 4rem "Montserrat", sans-serif;
 }
 
 .font-3-24 {

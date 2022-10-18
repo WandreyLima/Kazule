@@ -1,0 +1,40 @@
+.portfolio-titulo {
+  padding: 5rem 0;
+  text-align: center;
+}
+
+.portfolio {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 2rem;
+}
+
+.portfolio-item {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.portfolio-item img {
+  height: 100%;
+  object-fit: cover;
+}
+
+.portfolio-item img:hover {
+  opacity: 0.9;
+  transition: 0.3s;
+  scale: 1.01;
+}
+
+.portfolio-item p {
+    padding-left: 1rem;
+}
+
+@media (max-width:500px) {
+    .portfolio {
+        gap: 2.5rem;
+    }
+    .portfolio-item{
+        gap: 0.5rem;
+    }
+}
