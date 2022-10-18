@@ -27,14 +27,14 @@
 }
 
 .portfolio-item p {
-    padding-left: 1rem;
+  padding-left: 1rem;
 }
 
-@media (max-width:500px) {
-    .portfolio {
-        gap: 2.5rem;
-    }
-    .portfolio-item{
-        gap: 0.5rem;
-    }
+@media (max-width: 500px) {
+  .portfolio {
+    gap: 2.5rem;
+  }
+  .portfolio-item {
+    gap: 0.5rem;
+  }
 }
