@@ -1,10 +1,23 @@
 @charset "UFT-8";
 
+
+
+.sobre::after {
+  display: block;
+  content: " ";
+  width: 12.8rem;
+  height: 12.8rem;
+  background: url(../../media/icones/detalhe.svg) no-repeat center;
+  position: absolute;
+  bottom: -115px;
+}
+
 .sobre {
   padding-top: 5rem;
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 4rem;
+  position: relative;
 }
 
 .sobre-texto {
@@ -37,6 +50,12 @@
 
 .whatsapp img {
   order: -1;
+}
+
+@media (max-width: 1000px) {
+  .sobre::after {
+    display: none;
+  }
 }
 
 @media (max-width: 800px) {
