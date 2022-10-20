@@ -19,6 +19,6 @@ btnClose.addEventListener("click", function () {
 
 document.body.addEventListener("keyup", function (e) {
   if (e.key === 'Escape') {
-    modal.classList.toggle("modal_active");
+    modal.classList.remove("modal_active");
   }
 });
