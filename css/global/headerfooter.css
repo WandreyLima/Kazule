@@ -73,6 +73,14 @@
   margin-bottom: 2rem;
 }
 
+.footer-img {
+}
+
+.footer-contato,
+.footer-img {
+  border-right: 2px solid #c9c9c9;
+}
+
 .footer-contato li {
   display: flex;
   flex-direction: row;
@@ -101,6 +109,9 @@
 }
 
 @media (max-width: 800px) {
+  .footer {
+    grid-template-columns: 1fr 1fr;
+  }
   .footer-img {
     display: none;
   }
@@ -109,6 +120,10 @@
 @media (max-width: 600px) {
   .footer {
     grid-template-columns: 1fr;
+  }
+  .footer-contato,
+  .footer-img {
+    border-right: none;
   }
   .footer-contato li {
     margin-bottom: 8px;

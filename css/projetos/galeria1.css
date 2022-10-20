@@ -9,6 +9,14 @@
   background-color: rgba(0, 0, 0, 0.7);
   position: fixed;
   z-index: 1;
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0.2s linear, opacity 0.2s linear;
+}
+
+.modal_active { /* Criado para alterar a visibilidade em JS */
+  visibility: visible;
+  opacity: 1;
 }
 
 .modal-content {
@@ -20,6 +28,12 @@
 
 #modal-img {
   width: 65vw;
+  transform: scale(0);
+  transition: all linear .3s;
+}
+
+.modal_active #modal-img {
+  transform: scale(1);
 }
 
 #btn-close {
@@ -35,7 +49,8 @@
 }
 
 #btn-close:hover {
-  background-color: #232323;
+  background-color: #464646;
+  scale: 1.1;
 }
 
 .galeria-imagens {
