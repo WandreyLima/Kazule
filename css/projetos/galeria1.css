@@ -71,3 +71,9 @@
   transition: 0.4s;
 }
 
+@media (max-width: 600px) {
+  #modal-img {
+    width: 90vw;
+    
+  }
+}
