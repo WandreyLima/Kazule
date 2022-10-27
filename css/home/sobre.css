@@ -1,7 +1,5 @@
 @charset "UFT-8";
 
-
-
 .sobre::after {
   display: block;
   content: " ";
@@ -13,7 +11,7 @@
 }
 
 .sobre {
-  padding-top: 5rem;
+  padding: 10rem 0rem;
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 4rem;
