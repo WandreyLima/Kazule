@@ -80,9 +80,6 @@
   margin-bottom: 2rem;
 }
 
-.footer-img {
-}
-
 .footer-contato,
 .footer-img {
   border-right: 2px solid #c9c9c9;
@@ -104,6 +101,7 @@
 
 .email {
   word-break: break-all;
+  padding-right: 1rem;
 }
 
 .creditos {
