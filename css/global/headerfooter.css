@@ -13,17 +13,18 @@
 
 .header img {
   width: 80%;
-  padding: 10px 0;
+  padding: 1rem 0;
 }
 
 .header nav {
   display: flex;
-  gap: 60px;
-  flex-wrap: wrap;
+  gap: 6rem;
+  flex-wrap: nowrap;
+  word-break: normal;
 }
 
 .header nav a {
-  padding: 16px 0px;
+  padding: 1.6rem 0px;
   position: relative;
 }
 
@@ -42,13 +43,19 @@
   width: 100%;
 }
 
+@media (max-width: 700px) {
+  .header nav {
+    gap: 3rem;
+  }
+}
+
 @media (max-width: 600px) {
   .header {
     flex-direction: column;
   }
 
   .header nav {
-    gap: 12px;
+    gap: 1.2rem;
   }
 
   .header nav a::after {
@@ -73,9 +80,6 @@
   margin-bottom: 2rem;
 }
 
-.footer-img {
-}
-
 .footer-contato,
 .footer-img {
   border-right: 2px solid #c9c9c9;
@@ -86,7 +90,7 @@
   flex-direction: row;
   align-items: center;
   gap: 1rem;
-  margin-bottom: 16px;
+  margin-bottom: 1.6rem;
 }
 
 .footer-redes li {
@@ -97,11 +101,12 @@
 
 .email {
   word-break: break-all;
+  padding-right: 1rem;
 }
 
 .creditos {
   text-align: center;
-  font-size: 14px;
+  font-size: 1.4rem;
 }
 
 .creditos p {
