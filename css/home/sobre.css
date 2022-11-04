@@ -26,6 +26,18 @@
 
 .sobre-texto h2 {
   text-align: center;
+  position: relative;
+}
+
+.sobre-texto h2::after {
+  content: " ";
+  width: 3.2rem;
+  height: 3.2rem;
+  position: absolute;
+  display: inline;
+  background: url(../../media/icones/document-32.png) no-repeat bottom;
+  padding-left: 1.3rem;
+  padding-top: 0.15em;
 }
 
 .sobre-texto p {

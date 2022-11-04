@@ -3,6 +3,21 @@
   text-align: center;
 }
 
+.portfolio-titulo h1 {
+  position: relative;
+}
+
+.portfolio-titulo h1::after{
+    content: " ";
+    width: 3.2rem;
+    height: 3.2rem;
+    position: absolute;
+    display: inline;
+    background: url(../../media/icones/projeto.png) no-repeat bottom;
+    padding-left: 3rem;
+    padding-top: 0.6rem;
+}
+
 .portfolio {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
@@ -13,6 +28,7 @@
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
+  position: relative;
 }
 
 .portfolio-item img {
@@ -21,9 +37,20 @@
 }
 
 .portfolio-item img:hover {
-  opacity: 0.9;
+  opacity: 0.7;
   transition: 0.3s;
   scale: 1.01;
+}
+
+.portfolio-item:hover:after {
+  content: 'Saiba mais';
+  position: absolute;
+  color: rgb(238, 235, 235);
+  display: flex;
+  align-self: center;
+  justify-self: center;
+  top: 13rem;
+  
 }
 
 .portfolio-item p {
