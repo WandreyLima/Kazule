@@ -20,7 +20,6 @@
   display: flex;
   gap: 6rem;
   flex-wrap: nowrap;
-  word-break: normal;
 }
 
 .header nav a {
@@ -55,11 +54,19 @@
   }
 
   .header nav {
+    align-content: center;
     gap: 1.2rem;
   }
 
   .header nav a::after {
     display: none;
+  }
+}
+
+@media (max-width: 420px){
+  .header nav {
+    gap: 1.0rem;
+    font-size: 12px;
   }
 }
 
