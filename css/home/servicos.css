@@ -31,14 +31,14 @@
   flex-direction: row;
   justify-content: flex-start;
   gap: 2rem;
-  overflow: scroll;
+  overflow-x: scroll;
   
 }
 
 .card-servicos {
   display: flex;
   flex-direction: column;
-  min-width: 36.5rem;
+  min-width: 31.5rem;
   width: 36.5rem;
   gap: 1rem;
   align-items: center;
