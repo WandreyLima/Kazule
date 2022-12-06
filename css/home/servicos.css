@@ -29,17 +29,17 @@
 .servicos-cards {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: flex-start;
   gap: 2rem;
-  overflow: auto;
+  overflow: scroll;
   
 }
 
 .card-servicos {
   display: flex;
   flex-direction: column;
-  min-width: 365px;
-  width: 365px;
+  min-width: 36.5rem;
+  width: 36.5rem;
   gap: 1rem;
   align-items: center;
   background-color: white;

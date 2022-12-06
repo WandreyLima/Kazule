@@ -2,7 +2,7 @@
 
 function initAnimaScroll() {
   const sections = document.querySelectorAll(".js-scroll");
-  const windowClient = window.innerHeight * 0.6;
+  const windowClient = window.innerHeight * 0.7;
 
   if (sections.length) {
     function animacaoScroll() {
