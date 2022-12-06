@@ -7,6 +7,8 @@
     <title>Kazule | Arquitetura</title>
     <meta name="description" content="Empresa de Arquietetura" />
 
+    <script> document.documentElement.className += ' js' </script> 
+
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
@@ -27,15 +29,15 @@
     <main>
       <div class="parallax">
         <div class="parallax-img"></div>
-        <div class="parallax-texto">
+        <!-- <div class="parallax-texto">
           <h1 class="font-2-40">Kazule</h1>
           <p class="font-2-32">
             Transformando a vida das pessoas através de espaços incríveis
           </p>
-        </div>
+        </div> -->
       </div>
 
-      <article aria-label="Sobre" id="sobre" class="js-section">
+      <article aria-label="Sobre" id="sobre" class="js-scroll">
         <div class="sobre container">
           <div class="sobre-texto">
             <h2 class="font-3-36">sobre</h2>
@@ -65,7 +67,7 @@
         </div>
       </article>
 
-      <article aria-label="Serviços" id="servicos" class="js-section">
+      <article aria-label="Serviços" id="servicos" class="js-scroll">
         <div class="servicos container">
           <h2 class="font-3-36">serviços</h2>
           <div class="servicos-cards">
@@ -122,7 +124,7 @@
         </div>
       </article>
 
-      <aside class="local container">
+      <aside class="local container js-scroll">
         <h2 class="font-3-36">localização</h2>
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3677.0229814639492!2d-43.297517349290175!3d-22.838639241111558!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x997bd38efbaead%3A0xf1fe164db4bbac62!2sKazule%20Arquitetura!5e0!3m2!1spt-BR!2sbr!4v1667570378369!5m2!1spt-BR!2sbr"
@@ -136,7 +138,7 @@
     </main>
 
     <footer>
-      <div class="footer-bg container js-section" id="contato">
+      <div class="footer-bg container js-scroll" id="contato">
         <div class="footer container">
           <div class="footer-img">
             <a href="index.html"
@@ -204,5 +206,6 @@
       </div>
     </footer>
     <script src="js/navegacaointerna.js"></script>
+    <script src="js/animacaoscroll.js"></script>
   </body>
 </html>
