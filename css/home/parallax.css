@@ -1,35 +1,43 @@
 @charset "UFT-8";
 
 .parallax {
-    height: 90vh;
-    width: 100%;
+  height: 90vh;
+  width: 100%;
 }
 
 .parallax-img {
-    height: 90vh;
-    width: 100%;
-    opacity: 0.8;
-    background: black url(../../media/fotos/imagem-home.jpg) no-repeat fixed center;
-    background-size: cover;
-    
-    position: absolute;
-    
+  height: 90vh;
+  width: 100%;
+  opacity: 0.8;
+  background: black url(../../media/fotos/imagem-home.jpg) no-repeat fixed
+    center;
+  background-size: cover;
+
+  position: absolute;
 }
 
 .parallax-texto {
-    text-align: center;
-    position: relative;
-    top: 20rem;
-    box-sizing: border-box;
-    padding: 0px 0px;
+  text-align: center;
+  position: relative;
+  top: 20rem;
+  box-sizing: border-box;
+  padding: 0px 0px;
 }
 
 .parallax-texto h1 {
-    font-size: 6rem;
-    color: #242424;
+  font-size: 6rem;
+  color: #242424;
 }
 
 .parallax-texto p {
-    margin-top: 3rem;
+  margin-top: 3rem;
 }
 
+@media (max-width: 600px) {
+  .parallax-img {
+    width: 100%;
+    background: black url(../../media/fotos/imagem-home.jpg) no-repeat center;
+    background-size: cover;
+    position: absolute;
+  }
+}
